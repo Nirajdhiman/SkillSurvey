@@ -1,0 +1,13 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="skillsurvey-ui.Master1" xmlns:html="http://www.w3.org/1999/xhtml">
+	    <Page id="homePage" title="Countries">
+        <List items="{menuModel>/Items}">
+            <StandardListItem title="{menuModel>viewName}" description="{menuModel>viewName}" type="Navigation" tap="listItemTriggered">
+                <customData> <!-- this is an OPTIONAL way to bind additional data to each list item; when the item is tapped, this data is read in the Controller -->
+                    <core:CustomData key="id" value="{menuModel>viewName}" />
+                </customData>
+            </StandardListItem>
+       </List>
+    </Page>
+
+</core:View>

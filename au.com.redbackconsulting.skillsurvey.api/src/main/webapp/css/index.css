@@ -1,0 +1,491 @@
+.xxx{
+/* 	background-image: url('http://localhost:8080/skill/config/images/home_background.png'); */
+/* 	background-size: 100% 100%; */
+/* 	background-repeat: no-repeat; */
+/* 	background-color:white; */
+/* 	 opacity: 0.8; */
+/*     filter: alpha(opacity=60); */
+	
+}
+.sapUiUx3ShellHeader>h1 {
+font-size: 26;
+display: inline-block;
+margin: 0;
+-moz-user-select: none;
+-webkit-user-select: none;
+user-select: none;
+margin-left: 26%;
+font-size: 30px;
+}
+.homefirstContentHead{
+	background-image: url('http://localhost:8080/skill/config/images/header.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left:2px; 
+}
+.otherContents{
+
+}
+.homeFirstRightContent{
+	background-color:white;
+	width:94%;
+	height:100%;
+	padding-left:5px;
+	padding-top:5px;
+	padding-right:5px;
+	margin-top:0px; 
+	margin-left:2px; 
+	border:1px grey solid;
+}
+.homeFirstContent{
+	background-color:white;
+	width:93%;
+	height:100%;
+	padding-left:5px;
+	padding-top:5px;
+	padding-right:5px;
+	margin-top:0px; 
+	margin-left:2px; 
+	border:1px grey solid;
+/* 	background-image: url('http://localhost:8080/skill/config/images/page.png'); */
+/* 	background-size: 100% 100%; */
+/* 	background-repeat: no-repeat; */
+/* 	 opacity: 1; */
+/*     filter: alpha(opacity=90); */
+}
+}
+.surveyTemplateLeftBox{
+ border:1px grey solid;
+ border-radius:6px;
+ background-color:white;
+
+}
+.surveyTemplateRightBox{
+ background-color:white;
+ 
+}
+.home-left-container{
+	margin:1px auto;
+	background:transparent;
+}
+.sapUiTableTreeIcon {
+display: block;
+width: 12px;
+background-position: 50% 50%;
+background-repeat: no-repeat;
+float: left;
+padding-top: 8px;
+}
+.save-continue-btn{
+ float:left;
+ height:30px;
+ width:120px;
+ margin-right:2px;
+ margin-left:10px;
+ margin-top:2px;
+ background:transparent;
+ border:2px solid;
+}
+.sapUiTb {
+height: 29px;
+border: none;
+padding: 0;
+margin: 0;
+overflow: hidden;
+position: relative;
+float: left;
+}
+.sapUiUx3QVTitle1 {
+position: relative;
+font: bold 14px Arial;
+margin-left: 42px;
+}
+.commonButtonUserManagement{
+float:right;
+ height:30px;
+ width:120px;
+ margin-left:1px;
+ margin-right:1px;
+ margin-top:1px;
+ margin-bottom:1px;
+ background:transparent;
+ border:2px solid;
+}
+.commonButtonRoleManagement{
+float:right;
+ height:24px;
+ width:30px;
+
+ 
+ background:transparent;
+ border:2px solid;
+}
+.commonButtonUserManagementAdd {
+margin-top: 0;
+margin-bottom: 0;
+height: 29px;
+width: 120px;
+}
+.userManagementTblText{
+font-size:0.900rem;
+color:grey;
+}
+.sapUiTbCont {
+padding: 0 0 0 0;
+height: 32px;
+}
+.exit-continue-btn{
+ float:right;
+ height:30px;
+ width:120px;
+ margin-right:0%;
+ margin-top:2px;
+ background:transparent;
+ border:2px solid;
+}
+.sapUiTableRowHdr, .sapUiTableTr>td {
+padding-top: 2px;
+padding-bottom: 1px;
+border-bottom: 1px solid #cccccc;
+border-right: 1px solid #cccccc;
+}
+.sapUiUx3OCContent {
+
+background: url(config/images/background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+position: absolute;
+top: 29px;
+left: 29px;
+bottom: 29px;
+right: 29px;
+opacity: 1;
+padding: 0;
+border-top: 5px #eca800 solid;
+border-bottom: 1px #eca800 solid;
+}
+.userProfileOverlay{
+background-image: url('config/images/background.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border:0px;
+
+}
+.userProfileForm{
+ margin-left:1%;
+ border:1px #f2f2f2 solid;
+ margin-top:1%;
+ background-color:#f2f2f2;
+/*  opacity: 0.4; */
+/*     filter: alpha(opacity=5); */
+}
+.userProfileMatrix{
+background-color:#f2f2f2;
+margin-left:1%;
+}
+.tabLayout{
+ background-color:red;
+}
+.surveyPathwayButtonMandatoryBar{
+padding-top:4px;
+background-image: url('config/images/Mandatory.png');
+	background-size: 100% 86%;
+	background-repeat: no-repeat;
+	border:0px;
+   
+	
+}
+
+.surveyPathwayButtonHDesirableBar{
+padding-top:4px;
+background-image: url('config/images/HDesirable.png');
+	background-size: 100% 86%;
+	background-repeat: no-repeat;
+	border:0px;
+	background-color:transparent;
+}
+.surveyPathwayButtonDesirableBar{
+padding-top:4px;
+background-image: url('config/images/Desirable.png');
+	background-size: 100% 86%;
+	background-repeat: no-repeat;
+	border:0px;
+	background-color:transparent;
+}
+.sapUiUx3ShellCanvas>.sapUiUx3NavBar {
+margin-bottom: 6px;
+}
+.sapUiTreeFixedHeight .sapUiTreeCont {
+width: 150px;
+position: absolute;
+left: 0;
+right: 0;
+bottom: 0;
+}
+.sapUiBtnS.sapUiBtnLite.sapUiBtnStd {
+color: white;
+margin-top:3px;
+}
+.sapUiBtnStd:hover {
+color: #f0ab00;
+background-color:blue;
+}
+.sapUiBtnS:hover {
+color: #f0ab00;
+background-color:blue;
+}
+.sapUiBtnLite:hover {
+color: #f0ab00;
+background-color:blue;
+}
+.matrix{
+margin-top:0px;
+}
+.reportContainerDiv{
+align:center;
+overflow-x:scroll;
+border:1px grey solid;
+}
+.reportPringButton{
+ float:right;
+ margin-right:2px;
+ margin-bottom:1px;
+ height:30px;
+ width:120px;
+}
+.sapUiUx3ShellCanvas {
+position: absolute;
+left: 40px;
+right: 40px;
+top: 98px;
+padding: 24px 0px 2px 0px;
+min-width: 96px;
+background-color: #f2f2f2;
+z-index: 1;
+overflow-x: auto;
+overflow-y: hidden;
+}
+.left{
+width:15%;
+	border:1px grey solid;
+}
+.footerBtn{
+ color:white;
+}
+.footer{
+ background-image: url(config/images/footer.png); */
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='config/images/footer.png', sizingMethod='scale')"; 
+background-color:black;
+}
+/*** neeraj css code ************/
+.surveyTemplateQuestionTableRowRepeator{
+  margin-top:0px;
+  height:254px;
+  width:100%;
+}
+.tblbg{
+ 	border:1px green solid;
+ 
+}
+.oLayout{
+			width:90%;
+		margin-left:4px;
+		}
+		
+		
+		
+		.lbl1{
+		color: white;
+	
+		font-size: 0.900rem;
+		}
+		.lbl2{
+		color: black;
+		margin-left: 2px;
+	
+		font-size: 0.900rem;
+		}
+		
+		.surveyTemplateUserProfileLabelCell{
+		width:370px;
+		background-color: #4F81BD;
+ 		border:2px #A7C0DE solid;
+ 		color:white;
+		}
+		.surveyTemplateCommonPathwayMatrixHeader{
+		width:370px;
+		background-color: #4F81BD;
+ 		/*border:2px #A7C0DE solid;*/
+		}
+		
+		.surveyTemplateCommonPathwayMatrixQuestions{
+		width:660px;
+		background-color:#D0D8E8 ;
+		border:2px white solid;
+		
+		}
+		.surveyTemplateUserProfileTextCell{
+		background-color:#D0D8E8 ;
+		border:1px white solid;
+		}
+		.surveyTemplateCommonPathwayMatrixResponseCell{
+		width:75px;
+		background-color:#D0D8E8 ;
+		border:2px white solid;
+		}
+		.surveyTemplateCommonPathwayMatrixResponseCell_B{
+		width:50px;
+		background-color:#D0D8E8 ;
+		border:2px white solid;
+		}
+		.surveyTemplateCommonPathwayMatrixQuestionCell{
+		width:660px;
+		background-color:#4F81BD ;
+		border:2px white solid;
+		}
+		
+		.surveyTemplateCommonPathwayMatrixResponseHeaderCell{
+		width:150px;
+		background-color:#4F81BD ;
+		border:2px white solid;
+		}
+		.surveyTemplateCommonPathwayMatrixLabel{
+		color: white;
+	
+		font-size: 1.00rem;
+		}
+.sapUiUx3NavBarList>li, .sapUiUx3NavBarItem {
+color: #666666;
+text-transform: capitalize;
+}
+.sapUiUx3NavBarToplevel .sapUiUx3NavBarList>li, .sapUiUx3NavBarToplevel .sapUiUx3NavBarItem {
+color: #bfbfbf;
+text-transform: capitalize;
+}
+
+.sapUiUx3NavBarItemSel>a {
+font-size: 16px;
+padding: 0 9px 0;
+-moz-transition-property: color,font-size,padding;
+-moz-transition-duration: 0.3s;
+-ms-transition-property: color,font-size,padding;
+-ms-transition-duration: 0.3s;
+-webkit-transition-property: color,font-size,padding;
+-webkit-transition-duration: 0.3s;
+transition-property: color,font-size,padding;
+transition-duration: 0.3s;
+text-transform: capitalize;
+}
+.surveyTemplateUserProfileMatrix{
+ margin-top:6px;
+ 
+}
+
+
+ .surveySurveyMatrix{ 
+
+ /* border:1px grey solid; */
+ margin-left:2px;
+
+} 
+ .appHomeMatrix{ 
+ margin-left:2px;
+
+} 
+
+.userManagementWelcomeText{
+
+font-weight:bold;
+ height:80px;
+ font-size:2rem;
+ color:grey;
+}
+.roleManagementLeftPannel{
+width:40%;
+padding-left:2px;
+
+border:2px grey;
+}
+.userManagementLeftPannel{
+padding-left:2px;
+padding-right:5px;
+
+}
+.sapUiNotifier {
+-webkit-transform: translate3d(0,0,0);
+display: inline-block;
+position: relative;
+font-size: 12px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-position: 8px;
+width: 60px;
+height: 40px;
+margin: 0;
+padding: 0;
+vertical-align: top;
+outline: none;
+float: left;
+}
+.userManagementRightPannel{
+
+ padding:0px 0px 0px 0px;
+ 
+}
+ .userManagementMatrix{ 
+margin-top:1px;
+
+ margin-left:3px;
+ 
+
+} 
+ .userManagementRightPannelContainer{ 
+ 
+margin-top:1px;
+padding-left:18px;
+border-left:2px #007dc0 solid;
+ margin-left:8px;
+background-color:#fffff;
+
+} 
+.sapUiMltPadRight {
+padding: 0 0px 0px 0;
+}
+.userMatrix{
+margin-left:1px;
+margin-top:6px;
+ 
+}
+
+
+ .questionTable{
+ margin-top:3px;
+ }
+.actionRow{
+ border-bottom:1px grey solid;
+ margin-bottom:2px;
+ 
+}
+ .surveyContinueButtonContainer{ 
+ margin-top:1px;
+ margin-bottom:1px;
+  width:120px;
+  height:30px;
+  margin-right:5%;
+ 
+ } 
+ .qvDescriptionType{
+ font-family: Calibri;
+ font-size:14px;
+ font-weight:bold;
+ color:black;
+ }
+ .qvDescription{
+ font-family: Calibri;
+ font-size:13px;
+ font-weight:bold;
+ color:black;
+ }

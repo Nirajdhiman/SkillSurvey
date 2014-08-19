@@ -1,0 +1,177 @@
+body {
+	margin : 0px 0px 0px 0px;
+	background-color : black ; // #C1C6C8 ; //grey;
+	
+}
+
+#mbdy {
+	background-color :#5B6770 ;// black ; // #C1C6C8 ; //grey;
+	
+	
+}
+
+#maincontainer {
+	
+	width : 1024px;
+  margin: 0 auto;
+  background-color : white ; 
+}
+ 
+ 
+#idApp1--container_row1{
+	text-align :right;
+//	background-color:#5B6770; //  #C1C6C8; //white;
+	background-image : url('../images/thbg.jpg') ;
+	color: white;
+	height : 40px;
+}
+#idApp1--container_row1 button {
+	background-color : #C1C6C8; //#CF4520; // #C1C6C8; // black ; // 
+	color : CF4520; // white;
+	font-size : 11px;
+}
+
+#idApp1--container_row2 {
+	
+ background-color : #BABFC3;
+ margin : 0px 0px 0px 0px;
+}
+
+#idApp1--container_row2_col1{
+	
+	background-image: url('../images/logo.png');
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	border:0px;
+}
+
+#idApp1--container_row3{
+
+	background-image : url('../images/mmbg.jpg') ;
+	height : 50px;
+	padding : 5px 5px 5px 5px;
+}
+
+#idApp1--container_row4 {
+
+	background-color: #FBFBFB; 
+	height : 30px;
+		
+}
+#idApp1--container_row5{
+
+}
+
+#idApp1--container_row6{
+ width: 100%;
+ height: 35px;
+}
+#idApp1--container_row6_col1 {
+	background-color: #5B6770;
+	text-align :right;
+	color: #000000;
+	width: 70%;
+}
+#idApp1--container_row6_col2 {
+	background-color: #CF4520;
+	width: 30%;
+}
+#idApp1--container_row6 button{
+	margin-top:5px;
+	background-color: #5B6770;
+    color: white;
+    
+   
+}
+#idApp1--container_row6 button:hover{
+	background-color: #5B6770;
+    color: white;
+}
+#idApp1--container_row6 button:active{ 
+background-color:#5B6770;
+color: white;
+}
+
+
+.surveySurveyMatrix{
+ margin-left:3px;
+ margin-top:2px;
+ 
+
+}
+
+.surveyTemplateQuestionTableRowRepeator{
+ margin-top:0px;
+ height:254px;
+ width:100%;
+}
+
+.surveyTemplateCommonPathwayMatrixLabel{
+ color: white;
+ font-family: Calibri;
+ font-size: 1rem;
+ }
+
+
+.surveyTemplateCommonPathwayMatrixHeader{
+ width:370px;
+ background-color: #4F81BD;
+
+ }
+
+.surveyTemplateCommonPathwayMatrixQuestionCell{
+ width:660px;
+ background-color:#4F81BD ;
+ border:2px white solid;
+ }
+
+
+.surveyTemplateCommonPathwayMatrixResponseHeaderCell{
+ width:150px;
+ background-color:#4F81BD ;
+ border:2px white solid;
+ }
+
+.surveyTemplateCommonPathwayMatrixLabel{
+ color: white;
+ font-family: Calibri;
+ font-size: 1rem;
+ }
+
+.surveyTemplateCommonPathwayMatrixQuestions{
+ width:660px;
+ background-color:#D0D8E8 ;
+ border:2px white solid;
+
+ }
+
+
+.surveyTemplateCommonPathwayMatrixResponseCell{
+ width:75px;
+ background-color:#D0D8E8 ;
+ border:2px white solid;
+ }
+
+.surveyPathwayButtonMandatoryBar{
+padding-top:4px;
+background-image: url('../images/mandatory.png');
+ background-size: 100% 86%;
+ background-repeat: no-repeat;
+ border:0px;
+}
+
+ 
+
+.surveyContinueButtonContainer{
+ padding-right:30px;
+}
+
+ 
+
+
+.mainmenucell {
+	
+	width : 30px;
+}
+
+ 

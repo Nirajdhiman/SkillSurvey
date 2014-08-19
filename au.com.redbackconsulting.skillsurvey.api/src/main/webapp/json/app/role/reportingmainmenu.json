@@ -1,0 +1,1 @@
+{"MenuItems" : [ {"label" : "My Report", "key" : "myreport", "icon": "images/icons/myreport.png" , "submenu" : [{"label": "Create Report", "key" : "createreport"}, {"label": "Print Report", "key" : "printreport"}]} ]}

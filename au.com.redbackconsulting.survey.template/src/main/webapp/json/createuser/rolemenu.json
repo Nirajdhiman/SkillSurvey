@@ -1,0 +1,1 @@
+{"Items" : [{"sno" : "1.", "label": "Create New Role", "key" : "createnewrole" } , {"sno" : "2.",  "label": "Edit Role", "key" : "editrole" }, {"sno" : "3.",  "label": "Delete role", "key" : "deleterole" }  ]}

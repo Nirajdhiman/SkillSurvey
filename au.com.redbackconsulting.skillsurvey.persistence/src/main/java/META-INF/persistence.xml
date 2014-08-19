@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<persistence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+  version="2.0" xmlns="http://java.sun.com/xml/ns/persistence">
+  
+  	<persistence-unit name="au.com.redbackconsulting.skillsurvey.persistence" transaction-type="RESOURCE_LOCAL">
+		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		
+		<class>au.com.redbackconsulting.skillsurvey.persistence.model.Level</class>
+		<class>au.com.redbackconsulting.skillsurvey.persistence.model.Uoc</class>
+	 	<class>au.com.redbackconsulting.skillsurvey.persistence.model.Role</class>
+		<class>au.com.redbackconsulting.skillsurvey.persistence.model.Function</class>
+		<class>au.com.redbackconsulting.skillsurvey.persistence.model.Claim</class>
+		<class>au.com.redbackconsulting.skillsurvey.persistence.model.Occupation</class>
+		<class>au.com.redbackconsulting.skillsurvey.persistence.model.RoleAssignment</class>
+		<class>au.com.redbackconsulting.skillsurvey.persistence.model.UocQuestion</class>
+		<class>au.com.redbackconsulting.skillsurvey.persistence.model.SurveryAnswer</class>
+		<class>au.com.redbackconsulting.skillsurvey.persistence.model.Survey</class>
+		<class>au.com.redbackconsulting.skillsurvey.persistence.model.Dapssco</class>
+		<class>au.com.redbackconsulting.skillsurvey.persistence.model.Individual</class>
+		<class>au.com.redbackconsulting.skillsurvey.persistence.model.DapsscoSkills</class>
+		<class>au.com.redbackconsulting.skillsurvey.persistence.model.UocGroupMembers</class>
+		<class>au.com.redbackconsulting.skillsurvey.persistence.model.UocGroup</class>
+		<class>au.com.redbackconsulting.skillsurvey.persistence.model.Supervisons</class>
+		<class>au.com.redbackconsulting.skillsurvey.persistence.model.ClaimAssignments</class>
+		<class>au.com.redbackconsulting.skillsurvey.persistence.model.FunctionOccupations</class>
+		<class>au.com.redbackconsulting.skillsurvey.persistence.model.Need</class>
+		<class>au.com.redbackconsulting.skillsurvey.persistence.model.UserType</class>
+		<class>au.com.redbackconsulting.skillsurvey.persistence.model.UserTypeNeeds</class>
+		<class>au.com.redbackconsulting.skillsurvey.persistence.model.Location</class>
+		<class>au.com.redbackconsulting.skillsurvey.persistence.model.Provider</class>
+		<class>au.com.redbackconsulting.skillsurvey.persistence.model.OccupationLevel</class>
+		<class>au.com.redbackconsulting.skillsurvey.persistence.model.DapsscoLevel</class>
+		<class>au.com.redbackconsulting.skillsurvey.persistence.model.Department</class>
+		
+			<exclude-unlisted-classes>true</exclude-unlisted-classes>
+		 
+					<properties>
+						<property name="eclipselink.ddl-generation.output-mode" value="database"/>
+				 		<property name="eclipselink.ddl-generation" value="create-or-extend-tables"/>
+						<property name="eclipselink.logging.level" value="OFF"/>
+						<property name="javax.persistence.jdbc.password" value=""/>
+						<property name="eclipselink.flush-clear.cache" value="Merge"/>
+			 
+					</properties>
+		</persistence-unit>
+</persistence>

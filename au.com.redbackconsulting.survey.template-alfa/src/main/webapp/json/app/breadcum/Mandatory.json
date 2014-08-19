@@ -1,0 +1,1 @@
+{"Items" : [{"label": "Home >>", "key" :"home", "enabled" : true }, {"label": ">> My Survey", "key" :"createsurvey", "enabled" : true } , {"label": ">> Create Survey", "key" :"createsurvey", "enabled" : true } , {"label": ">>Mandatory", "key" :"mandatory", "enabled" : false } ]}

@@ -1,0 +1,86 @@
+{
+  "userType": "Individual",
+  "MenuItems": [
+    {
+      "label": "Home",
+      "key": "profileHome",
+      "isDefault": false,
+      "submenu": [
+        {
+          "label": "Home",
+          "key": "Home-Master",
+          "isDefault": true,
+          "submenu": []
+        }
+      ]
+    },
+    {
+      "label": "My Surveys",
+      "key": "mysurvey",
+      "isDefault": false,
+      "submenu": [
+        {
+          "label": "Overview",
+          "key": "mysurvey-SurveyOverview",
+          "isDefault": true,
+          "submenu": []
+        },
+        {
+          "label": "Mandatory",
+          "key": "mysurvey-Mandatory",
+          "isDefault": false,
+          "submenu": []
+        },
+        {
+          "label": "Desirable",
+          "key": "mysurvey-Desirable",
+          "isDefault": false,
+          "submenu": []
+        },
+        {
+          "label": "Highly Desirable",
+          "key": "mysurvey-HighlyDesirable",
+          "isDefault": false,
+          "submenu": []
+        }
+      ]
+    },
+    {
+      "label": "My Reports",
+      "key": "myreport",
+      "isDefault": false,
+      "submenu": [
+        {
+          "label": "Mandatory",
+          "key": "myreport-MandatoryReport",
+          "isDefault": false,
+          "submenu": []
+        },
+        {
+          "label": "Desirable",
+          "key": "myreport-DesirableReport",
+          "isDefault": false,
+          "submenu": []
+        },
+        {
+          "label": "Highly Desirable",
+          "key": "myreport-HighlyDesirableReport",
+          "isDefault": false,
+          "submenu": []
+        },
+        {
+          "label": "Skills Compentency Gap",
+          "key": "myreport-SkillsCompentencyGapReport",
+          "isDefault": false,
+          "submenu": []
+        },
+        {
+          "label": "Skills Recognition",
+          "key": "myreport-SkillsRecognitionReport",
+          "isDefault": false,
+          "submenu": []
+        }
+      ]
+    }
+  ]
+}

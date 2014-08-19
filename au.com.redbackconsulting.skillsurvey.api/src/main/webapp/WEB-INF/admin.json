@@ -1,0 +1,63 @@
+{
+  "userType": "admin",
+  "MenuItems": [
+    {
+      "label": "Home",
+      "key": "profileHome",
+      "isDefault": false,
+      "submenu": [
+        {
+          "label": "Home",
+          "key": "Home-Master",
+          "isDefault": true,
+          "submenu": []
+        }
+      ]
+    },
+    {
+      "label": "User Management",
+      "key": "usermanagement",
+      "isDefault": false,
+      "submenu": [
+        {
+          "label": "User Management",
+          "key": "usermanagement-UserManagement",
+          "isDefault": true,
+          "submenu": []
+        }
+      ]
+    },
+    {
+      "label": "Manage Survey",
+      "key": "usermanagement-UserManagement",
+      "isDefault": false,
+      "submenu": [
+        {
+          "label": "Survey",
+          "key": "managesurvey-ManageSurvey",
+          "isDefault": false,
+          "submenu": []
+        },
+        {
+          "label": "Report",
+          "key": "managesurvey-ManageReport",
+          "isDefault": false,
+          "submenu": []
+        }
+      ]
+    },
+    {
+      "label": "Manage Site",
+      "key": "managesite",
+      "isDefault": false,
+      "submenu": [
+        {
+          "label": "Manage Site Content",
+          "key": "managesite-ManageSite",
+          "isDefault": false,
+          "submenu": []
+        }
+      ]
+    }
+  ]
+}
